@@ -1,0 +1,295 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    user-select: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  p {
+    color: #141313;
+  }
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+  .container-fluid{
+    padding: 1% 4%;
+  }
+  /* Sections */
+
+.coloured-section {
+    background-color:  #3E4095;
+    color: #fff;
+  }
+  .white-section {
+    background-color: #fff;
+  }
+  
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: 0 0 1rem;
+    /* background-color:  #3E4095;
+    color: #fff;
+    padding: 1% 4%; */
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color: white;
+  }
+  .registration-success{
+    margin: 10% auto;
+  }
+  .registration-success{
+    font-size: 1.5rem;
+    font-family: Ubuntu;
+  }
+  
+  /* Buttons */
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  .view-button{
+    margin: 0% 0 2% 0;
+  }
+  .down-button{
+    text-align: center;
+  }
+  #top-section {
+    background-color: #3E4095;
+    color: #fff;
+    text-align: left;
+    padding: 0 4%;
+    background-image: url(../images/backg.png);
+    background-size: cover;
+    /* background-image: url("images/backg.svg");
+    background-repeat: no-repeat; */
+  }
+  .top-section-img{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #title .container-fluid {
+    background-image: url(../images/backg.png);
+    background-size: cover;
+  }
+  /* Title Image */
+  .title-image {
+    width: 60%;
+    /* transform: rotate(25deg); 
+    position: absolute; */
+  }
+/* Features Section */
+
+#features {
+    position: relative;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+  }
+  
+  .feature-box {
+    padding: 4.5%;
+  }
+  
+  .icon {
+    color:  #3E4095;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #21056e;
+  }
+/* Testimonial Section */
+
+#footer {
+    background-color:  #21056e;
+    background-image: url(../images/backg.png);
+    background-size: cover;
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+    color: white;
+  }
+  .footer-nav{
+
+    color: white;
+    padding: 0.5rem 0;
+    margin: auto 0 1rem 0;
+  }
+  .form-header{
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 1rem;
+  }
+  .listing-form{
+    width: 90%;
+    margin: auto;
+  }
+  .error {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 1px solid red;
+    color: red;
+    background: #f2dede;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  .shift-left{
+    text-align: left;
+  }
+  .just{
+    user-select: none;
+    text-align: justify;
+  }
+.shift-left a{
+    color: blue;
+    text-decoration: none;
+    font-family: "Montserrat-Bold";
+    font-size: 1.2rem;
+}
+
+  .form-img{
+    width: 100%;
+  }
+  .form-link{
+    color: white;
+    text-decoration: none;
+    margin-top: 2rem;
+  }
+  .sign-up-note{
+    color: white;
+  }
+  .service-link{
+    color: blue;
+    text-decoration: none;
+  }
+  #home-main-body{
+    
+    width: 100%;
+    margin: 0 auto;
+    border-top: 5px solid gainsboro;
+  }
+  .home-body{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 0%;
+    margin: auto;
+  }
+  .create-listing-panel{
+    width: 100%;
+    background-color:  black;
+    margin: auto;
+    padding: 0.5rem 0.2rem;
+  }
+  .latest-uploads{
+    border-top: 2px solid gray;
+
+  }
+  .latest-post-section{
+    margin-top: 1.5rem;
+  }
+  
+  
+  .main-post-block{
+    background-color: white;
+    margin:  1rem 0;
+    padding: 1rem;
+    
+  }
+  .post-title{
+    color: black;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  .main-post-title{
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .category-section{
+    background-color: blanchedalmond;
+  }
+  .category-section h3{
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  .small-text{
+    font-size: 0.7rem;
+    text-align: left;
+  }
+  .post-summary{
+    text-align: left;
+  }
+  .dashboard-left{
+    background-color: blue;
+  }
+  .dashboard-name{
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .dashboard-name p{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  
+  @media (max-width: 1028px) {
+    .my-form-img{
+      width: 30%;
+      margin: 10px auto;
+    }
+    .mobile-cat{
+      width: 25%;
+      margin: auto;
+    }
+    .mob-post-block{
+      width: 99%;
+      margin: auto;
+    }
+    .dashboard-left{
+      width: 100%;
+    }
+    .dashboard-right{
+      width: 100%;
+      margin: auto;
+    }
+    .edit-button{
+      width: 50%;
+      margin: auto;
+    }
+    .delete-button{
+      width: 50%;
+      margin: auto;
+    }
+  }
+  
